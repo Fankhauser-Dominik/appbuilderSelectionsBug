@@ -1,0 +1,38 @@
+{
+  "name": "testSept26",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@adobe/aem-cf-admin-ui-ext-tpl": "^1.0.0-beta.23",
+    "@adobe/aio-sdk": "^4.1.0",
+    "@adobe/exc-app": "^1.2.10",
+    "@adobe/react-spectrum": "^3.32.2",
+    "@adobe/uix-guest": "^0.8.4",
+    "@react-spectrum/list": "^3.7.4",
+    "@spectrum-icons/workflow": "^4.2.7",
+    "core-js": "^3.33.2",
+    "node-fetch": "^3.3.2",
+    "node-html-parser": "^6.1.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.11",
+    "react-router-dom": "^6.19.0",
+    "regenerator-runtime": "^0.14.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@babel/core": "^7.23.3",
+    "@babel/plugin-transform-react-jsx": "^7.22.15",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.23.3",
+    "@openwhisk/wskdebug": "^1.4.0"
+  },
+  "scripts": {
+    "test": "jest --passWithNoTests ./test",
+    "e2e": "jest --collectCoverage=false --testRegex ./e2e"
+  },
+  "description": "Test for the selections",
+  "aio-app-builder-templates": [
+    "@adobe/aem-cf-admin-ui-ext-tpl"
+  ]
+}

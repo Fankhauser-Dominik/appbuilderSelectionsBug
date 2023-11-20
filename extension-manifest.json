@@ -1,0 +1,13 @@
+{
+  "name": "selectionsBug",
+  "id": "selectionsbug",
+  "description": "Test for the selections",
+  "version": "0.0.1",
+  "actionBarButtons": [
+    {
+      "label": "get Path",
+      "needsModal": false,
+      "id": "get-path"
+    }
+  ]
+}
